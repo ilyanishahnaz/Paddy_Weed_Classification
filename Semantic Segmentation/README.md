@@ -52,7 +52,6 @@ python remove_bg2.py
 - NumPy
 - TensorFlow / Keras 2.10
 - segmentation_models library
-- Other dependencies as listed in the notebook and scripts
 
 You can install the required libraries using pip:
 
