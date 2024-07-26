@@ -1,7 +1,7 @@
 # Weed & Paddy Classification Multiclass Semantic Segmentation Model
 
 ## Overview
-This repository contains the code and resources for a semantic segmentation model focused on multiclass classification of weeds and paddy. The main objective is to classify and segment different classes within RGB images, specifically distinguishing between three different types of weed (broadleaved, grass and sedges) and paddy. The repository includes preprocessing scripts, data augmentation techniques, and model evaluation methods.
+This repository contains the code and resources for a semantic segmentation model focused on multiclass classification of weeds and paddy. The main objective is to classify and segment different classes within RGB images, specifically distinguishing between three different types of weed (broadleaved, grass and sedges) and paddy. The repository includes preprocessing scripts, data augmentation techniques, and model evaluation methods. Three models are compared, UNet + Resnet50 encoder, PSPNet + Resnet50 encoder & SegNet
 
 ## Directory Contents
 1. **FYP_Preprocess_Eval.ipynb**: Jupyter notebook demonstrating various preprocessing methods, data augmentation, training, and evaluation.
@@ -46,7 +46,7 @@ python remove_bg2.py
 ```
 
 ## Requirements
-- Python 3.x
+- Python 3.10
 - Jupyter Notebook
 - OpenCV
 - NumPy
@@ -61,4 +61,4 @@ pip install opencv-python numpy tensorflow==2.10 keras==2.10 segmentation-models
 ```
 
 ## Acknowledgements
-This project is part of a Final Year Project (FYP) focused on developing a robust semantic segmentation model for weed and paddy classification.
+This project is part of a Final Year Project (FYP) focused on developing a robust semantic segmentation model for weed and paddy classification. 
